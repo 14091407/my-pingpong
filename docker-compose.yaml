@@ -1,0 +1,34 @@
+version: '3'
+
+services:
+  pp-app:
+    build: ./pingpong-app/.
+    container_name: pp-app
+    ports:
+      - 3000:3000
+
+  envoycli:
+    build: ./pingpong-envoy/cli/.
+    container_name: envoycli
+    ports:
+      - 10000:10000
+
+  envoypp:
+    build: ./pingpong-envoy/pp/.
+    container_name: envoypp
+    ports: 
+      - 8080:8080
+      # - 9901:9901
+      # - 10000:10000
+
+  # py:
+  #   build: ./python-envoy/.
+  #   container_name: pypp
+  #   ports:
+  #     - 50051:50051
+
+  gogo:
+    build: ./pingpong-server/.
+    container_name: gogopp
+    ports:
+      - 50051:50051
