@@ -1,6 +1,6 @@
 # pingpong-envoy
 
-to test envoyproxy and docker-compose with ping-pong
+to test things with ping-pong
 
 run : `docker-compose up` \
 stop & remove : `docker-compose down`
