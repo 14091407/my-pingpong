@@ -10,8 +10,8 @@
   "dependencies": {
     "@types/google-protobuf": "^3.7.2",
     "google-protobuf": "^3.11.4",
-    "grpc": "^1.28.1",
-    "grpc-web": "^1.0.7",
+    "grpc": "^1.24.3",
+    "grpc-web": "^1.2.1",
     "next": "^9.3.5",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"

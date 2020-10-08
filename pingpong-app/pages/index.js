@@ -3,7 +3,6 @@ import { PingPongServiceClient } from '../api/pingpong_grpc_web_pb'
 import { PingRequest, PongResponse } from '../api/pingpong_pb'
 
 var client = new PingPongServiceClient('http://localhost:10000');
-var client2 = new EntExamInfoServiceClient('http://localhost:10000')
 
 const Index = () => {
     const pingpong = () => {
