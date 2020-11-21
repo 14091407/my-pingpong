@@ -10,6 +10,8 @@ services:
   nginx:
     build: ./nginx/.
     container_name: nginx
+    volumes: 
+      - ./nginx/modules/:/usr/lib/nginx/modules/
     ports: 
       - 80:80
       - 443:443
