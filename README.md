@@ -10,3 +10,5 @@ next (3000) <-> envoy-cli (10000) <-> envoy-service (8080) <-> service (50051)
 
 more info : \
 envoy cli - envoy client
+
+thanks
